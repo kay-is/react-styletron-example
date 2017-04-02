@@ -1,0 +1,26 @@
+{
+  "name": "styletron-example",
+  "version": "0.1.0",
+  "description": "Styletron React Example",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && npm run build && npm start",
+    "build": "webpack",
+    "start": "http-server"
+  },
+  "author": "Kay Plößer <k@kay.is> (http://kay.is)",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styletron-client": "^2.5.1",
+    "styletron-react": "^2.5.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-react": "^6.23.0",
+    "http-server": "^0.9.0",
+    "webpack": "^2.3.2"
+  }
+}
