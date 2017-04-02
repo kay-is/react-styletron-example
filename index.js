@@ -3,9 +3,7 @@ import { render } from "react-dom";
 import Styletron from "styletron-client";
 import { styled, StyletronProvider } from "styletron-react";
 
-const styleSheet = document.createElement("style");
-document.head.appendChild(styleSheet);
-const styletron = new Styletron([styleSheet]);
+const styletron = new Styletron();
 
 const Indicator = styled("h1", ({ active }) => ({
   background: active ? "green" : "grey",
